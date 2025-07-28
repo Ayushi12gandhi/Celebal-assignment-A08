@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git Commands Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>🌿 Git Commands Dashboard</h1>
+    <p>Your Git cheat sheet for everyday development!</p>
+  </header>
+
+  <section class="dashboard">
+    <div class="card">
+      <h2>📦 Stage & Commit</h2>
+      <code>git add .</code>
+      <code>git commit -m "your message"</code>
+    </div>
+
+    <div class="card">
+      <h2>🔀 Switch Branch</h2>
+      <code>git checkout -b new-feature</code>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Push to Remote</h2>
+      <code>git push origin new-feature</code>
+    </div>
+
+    <div class="card">
+      <h2>🧯 Restore Deleted File</h2>
+      <code>git checkout HEAD^ -- index.html</code>
+    </div>
+
+    <div class="card">
+      <h2>⏪ Reset to Commit</h2>
+      <code>git reset --hard &lt;commit-hash&gt;</code>
+    </div>
+
+    <div class="card">
+      <h2>🤝 Merge Conflict Fix</h2>
+      <code>git merge main</code>
+      <code>// Resolve conflicts manually</code>
+      <code>git add .</code>
+      <code>git commit</code>
+    </div>
+  </section>
+</body>
+</html>
